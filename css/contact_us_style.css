@@ -1,0 +1,19 @@
+.contactus{
+
+}
+
+.contactus input[type=text]{
+	background-color: white;
+	font-size: 16px;
+	border: 1px solid #66afe9;
+}
+
+.contactus textarea{
+   background-color: white;
+   font-size: 16px;
+   border: 1px solid #66afe9;
+}
+
+.contactus label{
+	font-size: 18px;
+}

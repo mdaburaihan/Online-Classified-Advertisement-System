@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+/*body{
+   background-color:#9FC;   
+}
+*/
+.tbl{
+
+}
+/*.tbl input[type=button],[type=submit],input[type=reset]{
+    background-color:blue;
+    border: none;
+    color: white;
+    padding:15px 25px;
+    cursor: pointer;     
+ }*/
+
+.tbl input[type=text],input[type=date]{
+    width:300px;
+    box-sizing: border-box;
+    border: 1px solid #b09696;
+    font-size:16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;   
+}
+ .tbl input[type=text]:focus{
+   background-color:rgb(250, 255, 189); 
+    border: 1px solid #337ab7;
+}
+
+ .tbl input[type=date]:focus{
+   background-color:#FF6; 
+}
+
+.tbl select{
+   /*font-size:18px; */ 
+    width:300px;
+    box-sizing: border-box;
+    border: 1px solid #b09696;
+    font-size:16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+ .tbl select:focus{
+ background-color:rgb(250, 255, 189); 
+  border: 1px solid #337ab7;
+}
+
+.tbl textarea{
+    width:300px;
+    box-sizing: border-box;
+    border: 1px solid #b09696;
+    font-size:16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+ }
+.tbl textarea:focus{
+ background-color:rgb(250, 255, 189); 
+  border: 1px solid #337ab7;
+}
+.tdtxt{
+  font-family:Arial;
+  font-size:20px;
+  color:#036;
+}
+
+
+/*input[type='file'] {
+  color: transparent;
+}*/
+
+

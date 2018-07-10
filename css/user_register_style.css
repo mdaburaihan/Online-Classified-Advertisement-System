@@ -1,0 +1,82 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.register-page {
+  width: 360px;
+  padding: 2% 0 0;
+  //margin: auto;
+  margin-left: 400px;
+}
+.rform {
+  position: relative;
+  background-color: #fff;
+  width: 400px;
+  margin: 0 auto 100px;
+  padding: 45px;
+ text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.main-text {
+  font-weight: 100;
+  color: #333;
+}
+
+/*styling the inputs*/
+.rform input {
+  width: 100%;
+  height: auto;
+  margin: 0 0 15px;
+  //padding: 15px;
+  outline: 0;
+  border: 1px solid #66afe9;
+  font-family: "Roboto", sans-serif;
+  //background: #cfd5e5;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.rform select {
+  width: 100%;
+  height: auto;
+  margin: 0 0 15px;
+ // padding: 15px;
+  outline: 0;
+  border: 1px solid #66afe9;
+  font-family: "Roboto", sans-serif;
+  //background: #cfd5e5;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/*giving the submit button some awsome styles*/
+.rform button {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #16549d;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 16px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+/*chaning the styles from the button if you hover over it*/
+.rform button:hover,.rform button:active,.rform button:focus {
+  background:#a0ba18;
+  color: white;
+
+}
+
+/*message link*/
+.rform .message a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+
+.rform .btn:focus{
+    color: white;
+}

@@ -1,0 +1,35 @@
+.adview{
+
+}
+.adview .middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.adview .img {
+  opacity: 1;
+  /*display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;*/
+}
+.adview:hover .middle{
+  opacity: 1 !important;
+}
+.adview:hover .img {
+  opacity: 0.3;
+}
+
+ .adview .text {
+  background-color: #a0ba18;
+  color: white;
+  font-size: 14px;
+  padding: 14px 28px;
+}

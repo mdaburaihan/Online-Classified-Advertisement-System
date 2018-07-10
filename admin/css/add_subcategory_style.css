@@ -1,0 +1,41 @@
+@charset "utf-8";
+ CSS Document 
+.afrm{
+ }
+ .afrm input[type=text]{
+  
+    width:315px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    font-size:18px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out; 
+ }
+
+ .afrm select{
+    width:315px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    font-size:18px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out; 
+ }
+ .afrm input[type=submit],[type=reset]{
+  
+    background-color:#337a315
+
+ .atxt{
+  font-family:Arial;
+  font-size:20px;
+  color:#036;
+}
+
+

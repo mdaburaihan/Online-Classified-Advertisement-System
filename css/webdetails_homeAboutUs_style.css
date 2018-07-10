@@ -1,0 +1,25 @@
+.webdetails{
+}
+.webdetails ul {
+/*    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;*/
+}
+
+.webdetails li {
+    float: left;
+}
+
+.webdetails li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.webdetails li a:hover {
+    //color:#e81d61;
+    background-color: #a0ba18;
+}

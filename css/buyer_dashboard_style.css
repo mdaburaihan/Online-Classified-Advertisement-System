@@ -1,0 +1,71 @@
+.sidebar-widget-1 .list-group-item {padding:10px;font-size: 16px;}
+.list-group-hover .list-group-item:hover {
+   background-color: #a0ba18 ;color:#fff;transition: all 0.5s ease-out;}
+
+
+
+.sidebar-widget-1 i {margin-right:15px;font-size:18px;font-weight:600;}
+.list-group-item.bg-active {background:#2576b6;color:#fff; height:80px;}
+
+
+* {-webkit-border-radius: 0 !important;-moz-border-radius: 0 !important; border-radius: 0 !important;}
+
+
+/*images in the wishlist and confirmed ads*/
+.thumbnail a>img{
+	height:150px;
+	width:250px;
+}
+/*images in the wishlist and confirmed ads*/
+
+/*Inputs in the edit profile section*/
+.editprofile{
+
+}
+
+.editprofile .form-control{
+	background-color: white;
+	border:1px solid blue;
+	font-size: 18px;
+}
+
+.editprofile .form-control:hover{
+	background-color: #fcfca8;
+}
+
+.editprofile .form-control:focus{
+	background-color: #fcfca8;
+}
+/*Inputs in the edit profile section*/
+
+.card {
+  background: #daf2fa;
+  border-radius: 2px;
+  display: inline-block;
+  height: 150px;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+  margin-top:20px;
+  margin-left:50px;
+  font: 16px/40px helvetica,verdana,sans-serif;
+}
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+/*caption style in confirmed and wishlist products*/
+.thumbnail a>img{
+     height: 180px !important;
+     cursor: pointer;
+   }
+
+   .thumbnail a>img:hover{
+     opacity: 1; 
+   }

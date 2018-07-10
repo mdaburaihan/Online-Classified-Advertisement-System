@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+.editProfileFrm{
+ }
+ .editProfileFrm input[type=text]{
+  
+    width:300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border:none;
+    font-size:18px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out; 
+ }
+  /*.afrm input[type=text]:focus{  
+    width:500px;
+ }*/
+ .editProfileFrm input[type=submit],[type=reset]{
+  
+    background-color:#337ab7;
+    border: none;
+    color: white;
+    padding:15px 25px;
+    cursor: pointer;
+    width:100px;
+    margin-left: 250px;
+    margin-top: 50px;
+ }
+ .eptxt{
+  font-family:Arial;
+  font-size:20px;
+  color:#036;
+}
+

@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+.addUserFrm{
+ }
+ .addUserFrm input[type=text],[type=password]{
+  
+    width:300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    font-size:18px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out; 
+ }
+  /*.afrm input[type=text]:focus{  
+    width:500px;
+ }*/
+ .addUserFrm input[type=submit]{
+  
+    background-color:#337ab7;
+    border: none;
+    color: white;
+    padding:15px 25px;
+    cursor: pointer;
+    width:100px;
+    margin-left: 300px;
+    margin-top: 50px;
+ }
+  .addUserFrm input[type=reset]{
+  
+    background-color:#337ab7;
+    border: none;
+    color: white;
+    padding:15px 25px;
+    cursor: pointer;
+    width:100px;
+    margin-left: 950px;
+ }
+ .autxt{
+  font-family:Arial;
+  font-size:20px;
+  color:#036;
+}
+
+.addUserFrm input[type="checkbox"]{
+  width: 16px; /*Desired width*/
+  height: 16px; /*Desired height*/
+}
